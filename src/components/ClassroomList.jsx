@@ -6,7 +6,7 @@ export default function ClassroomList({ classrooms }) {
             <ul>
                 {classrooms.map((c, i) => (
                     <li key={i}>
-                        {c.roomId} | Capacity: {c.capacity} | Floor: {c.floorNo}
+                        {c.roomId} | Capacity: {c.capacity} | Floor: {c.floorNo} {c.nearWashroom && "| Near Washroom"}
                     </li>
                 ))}
             </ul>

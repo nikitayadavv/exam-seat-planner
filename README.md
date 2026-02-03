@@ -31,12 +31,13 @@ Clone this repo, then:
 npm install
 npm run dev
 ```
-
 That's it! Open http://localhost:5173 and you're good to go.
-
 # Building for production
-
 ```
 npm run build
 ```
 Feel free to use this for your own college projects!
+# live url
+https://exam-seat-planner-seven.vercel.app/
+# github repo link
+https://github.com/nikitayadavv/exam-seat-planner.git
