@@ -8,8 +8,8 @@ Basically, you can add classrooms (with their capacity and floor number), and th
 # Built with
 - HTML
 - React
-- Vite
 - Plain CSS
+- JS
 
 
 # How the seat allocation works
@@ -19,7 +19,7 @@ I used a simple greedy approach here:
 1. First, I sort all the rooms by floor (ground floor first, then 1st floor, etc.)
 2. Then I go through each room starting from the lowest floor
 3. Keep adding rooms until we have enough seats for everyone
-4. If there aren't enough total seats, it just shows an error
+4. If there aren't enough total seats, it just shows a message "Not enough seats available".
 
 So basically it tries to use lower floors first, which makes sense for accessibility.
 
